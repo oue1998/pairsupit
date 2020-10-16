@@ -8,7 +8,7 @@
       <!-- <li>เวลาที่ใช้ <span id="stopWatch">00:00</span> นาที</li> -->
     </ul>
 
-    <router-view></router-view>
+    <router-view/>
 
   </div>
   
