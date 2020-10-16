@@ -1,0 +1,58 @@
+{
+  "name": "pairsupit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
+  },
+  "Homepage": "https://github.com/oue1998/pairsupit",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "chart.js": "^2.9.3",
+    "core-js": "^2.6.5",
+    "gh-pages": "^3.1.0",
+    "hchs-vue-charts": "^1.2.8",
+    "vue": "^2.6.6",
+    "vue-analytics": "^5.22.1",
+    "vue-drag-and-drop": "^3.0.0",
+    "vue-m-message": "^1.1.1",
+    "vue-router": "^3.4.5",
+    "vue-tour": "^1.1.0",
+    "vue-uuid": "^2.0.2",
+    "vue2-touch-events": "^2.0.0",
+    "zingchart-vue": "^2.0.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
